@@ -4,7 +4,6 @@
 
 import pickle, base64
 import os, sys
-import requests
 
 HOST = "127.0.0.1"
 PORT = "4444"
